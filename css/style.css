@@ -49,7 +49,7 @@ address{list-style-type:none;
 
 
 .link { 
-    --primary-text-color: #212121;
+    color: var(--primary-text-color)
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2; 
@@ -304,8 +304,6 @@ color:var(--advantage-text-color)
 }
 
 
-
-}
 .com-footer:hover,
 .com-footer:focus,
 .Address-link:hover,
