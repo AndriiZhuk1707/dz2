@@ -52,8 +52,8 @@ address{list-style-type:none;
     color: var(--primary-text-color)
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2; 
-    letter-spacing: 0.02em;
+    line-height: 1.14; 
+
     }
 
 
@@ -262,6 +262,9 @@ color:var(--about-text-color);
 .list{list-style-type:none
 }
 
+
+.header-list .link.active.currents{ color:var(--accent-color) }
+   
 .btn-section {
 font-family: 'Roboto';
 font-style: normal;
