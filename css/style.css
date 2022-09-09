@@ -50,7 +50,7 @@ address{list-style-type:none;
 }
 
 
-.kontakt-list {   
+.kontakt-list {    color: var(--primary-text-color);
    
     font-size: 14px;
     line-height: 16px;
@@ -59,7 +59,7 @@ address{list-style-type:none;
 
 .kontakt-mail.kontakt-contact {color: var(--advantage-text-color)}
 
-.kontakt-list{list-style-type:none; }
+.kontakt-list {list-style-type:none; }
 
 .kontakt-contact {
     font-weight: 500;
@@ -77,7 +77,7 @@ address{list-style-type:none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     
-    color:var(--focus-text-color)
+    color: var(--about-text-color)
 }
 
 .link :hover,
@@ -210,6 +210,7 @@ color:var(--about-text-color);
 }
 
 .Address-link {
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -255,14 +256,13 @@ color:var(--about-text-color);
 .header-list .link.active.currents{ color:var(--accent-color) }
    
 .btn-section {
-
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--primary-text-color)
-}
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--primary-text-color)
+    }
 
 
 .btn-link {list-style-type:none
