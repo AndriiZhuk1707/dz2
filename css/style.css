@@ -13,7 +13,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: #ffffff;
@@ -39,22 +38,16 @@ address{list-style-type:none;
     color: var(--focus-text-color);
 }
 .link {list-style-type:none; 
-  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--logo-text-color);
  }
 
 .header-list .link.active.current{
     color:var(--accent-color)
 
 }
-
-
-.link { 
-    color: var(--primary-text-color)
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14; 
-
-    }
 
 
 .kontakt-list {   
@@ -68,7 +61,8 @@ address{list-style-type:none;
 
 .kontakt-list{list-style-type:none; }
 
-.kontakt-contact {font-weight: 500;
+.kontakt-contact {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2 ;
     letter-spacing: 0.02em;
@@ -77,8 +71,7 @@ address{list-style-type:none;
 }
 
 .kontakt-mail {
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -140,7 +133,7 @@ margin: -1px;
 }
 
 .advantage-title {
-font-family: 'Roboto',sans-serif;
+
 font-weight: 700;
 font-size: 14px;
 line-height:1.2;
@@ -149,9 +142,8 @@ color:var(--primary-text-color)
 }
 
 .advantage-text {
-font-weight: 400;
+
 font-size: 14px;
-line-height: 24px;
 line-height:2;
 letter-spacing: 0.03em;
 color:var(--about-text-color)
@@ -193,8 +185,7 @@ color: var(--primary-text-color)
 
 
 .team-title-name {
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
@@ -205,9 +196,7 @@ color:var(--primary-text-color)
 }
 
 .team-position{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.2;
 text-align: center;
@@ -266,8 +255,7 @@ color:var(--about-text-color);
 .header-list .link.active.currents{ color:var(--accent-color) }
    
 .btn-section {
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -298,7 +286,7 @@ color: var(--primary-text-color)
 }
 
 .section-text {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 2;
 letter-spacing: 0.03em;
